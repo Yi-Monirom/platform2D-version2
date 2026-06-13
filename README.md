@@ -9,12 +9,16 @@ A fun 2D platformer game featuring characters from the anime **Naruto**! Navigat
 ### Prerequisites
 - **Java 9+** (tested with Java 25)
 - Linux/Mac/Windows OS
-
+### Clone the repository
+```bash
+git clone https://github.com/Yi-Monirom/platform2D-version2.git platform2D
+```
 ### Installation & Setup
-
+0. **install OpenJdk:**
+        https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.3+9/OpenJDK25U-jdk_x64_linux_hotspot_25.0.3_9.tar.gz
 1. **Navigate to the project directory:**
    ```bash
-   cd ~/year4/Endless_obstacle/Documents/Year-3/Endless_Obstacle/platform2D
+   cd platform2D
    ```
 
 2. **Compile the project:**
@@ -29,7 +33,7 @@ A fun 2D platformer game featuring characters from the anime **Naruto**! Navigat
 
 **Quick Command (create an alias):**
 ```bash
-alias play-naruto='cd ~/year4/Endless_obstacle/Documents/Year-3/Endless_Obstacle/platform2D && ~/Downloads/jdk-25.0.3+9/bin/java -cp bin:rsc platform2D.Main'
+alias play-naruto='cd platform2D && ~/Downloads/jdk-25.0.3+9/bin/java -cp bin:rsc platform2D.Main'
 ```
 
 Then just type: `play-naruto`
